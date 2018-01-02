@@ -10,7 +10,8 @@
     "test": "npm run lint && node test/test.js && npm run coverage-quiet",
     "coverage": "covert test/test.js",
     "coverage-quiet": "covert --quiet test/test.js",
-    "lint": "jscs *.js */*.js"
+    "lint": "jscs *.js */*.js",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
